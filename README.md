@@ -14,7 +14,7 @@ This Jupyter Notebook provides tools for:
 ### **1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/mkovac03/gee_smap.git
-cd SMAP-Extraction
+cd gee_smap
 ```
 
 ### **2️⃣ Create and Activate the Conda Environment**
