@@ -1,0 +1,16 @@
+name: smap_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - jupyterlab
+  - earthengine-api
+  - geemap
+  - pandas
+  - tqdm
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - ipywidgets  # Enables interactive map in Jupyter
