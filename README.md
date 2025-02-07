@@ -10,6 +10,8 @@ This Jupyter Notebook provides tools for:
 
 ---
 
+![Output Visualization](images/output.png)
+
 ## 📌 Setup Instructions
 
 ### **1️⃣ Clone the Repository**
