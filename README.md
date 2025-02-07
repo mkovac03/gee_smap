@@ -10,7 +10,7 @@ This Jupyter Notebook provides tools for:
 
 ---
 
-![Output Visualization](images/output.png)
+![Output Visualization](output.png)
 
 ## 📌 Setup Instructions
 
