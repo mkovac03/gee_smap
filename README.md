@@ -3,7 +3,6 @@
 This Jupyter Notebook provides tools for:
 - **Selecting a location interactively using an interactive map**
 - **Extracting SMAP soil moisture data for the selected location**
-- **Visualizing the corresponding SMAP pixel boundaries**
 - **Exporting monthly mean soil moisture data as CSV**
 - **Extracting soil moisture surface data from the SMAP SPL3SMP_E dataset**
 
