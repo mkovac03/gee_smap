@@ -3,8 +3,10 @@
 This Jupyter Notebook provides tools for:
 - **Selecting a location interactively using an interactive map**
 - **Extracting SMAP soil moisture data for the selected location**
+- **Visualizing the corresponding SMAP pixel boundaries**
 - **Exporting monthly mean soil moisture data as CSV**
 - **Extracting soil moisture surface data from the SMAP SPL3SMP_E dataset**
+- **Visualizing the extracted data as a time series plot**
 
 ---
 
@@ -40,9 +42,9 @@ Open the Jupyter Notebook file (`smap_extraction.ipynb`) and run the cells in se
 ## 📌 Features
 ✅ Interactive map selection for a **custom point location**  
 ✅ **Dynamically retrieves SMAP soil moisture data**  
-✅ **Vectorizes the SMAP pixel boundary** and highlights it on the map  
 ✅ Extracts **monthly mean soil moisture** values and saves them to `smap_monthly_data.csv`  
 ✅ **Extracts soil moisture surface data from NASA's SMAP SPL3SMP_E dataset**  
+✅ **Generates a time-series plot of extracted SMAP soil moisture data**  
 
 ---
 
@@ -104,7 +106,16 @@ sm_surface,Year,Month,Longitude,Latitude,soil_moisture_am
 ### **Map Output**
 - The **SMAP soil moisture image** is displayed using a **color gradient**.
 - The **selected SMAP pixel is vectorized and outlined in black**.
-- The **map automatically zooms to the correct pixel**.
+
+### **Time-Series Visualization Output**
+- A **line plot** displaying SMAP soil moisture values over time.
+- Different colors distinguish between **surface soil moisture (0-5 cm) and AM soil moisture**.
+- Helps in analyzing **trends and seasonal variations in soil moisture**.
+
+To generate the visualization, run the following script:
+```sh
+python smap_visualization.py
+```
 
 ---
 
