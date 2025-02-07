@@ -114,11 +114,6 @@ sm_surface,Year,Month,Longitude,Latitude,soil_moisture_am
 - Different colors distinguish between **surface soil moisture (0-5 cm) and AM soil moisture**.
 - Helps in analyzing **trends and seasonal variations in soil moisture**.
 
-To generate the visualization, run the following script:
-```sh
-python smap_visualization.py
-```
-
 ---
 
 ## 📌 Contributing
