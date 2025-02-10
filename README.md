@@ -12,6 +12,18 @@ This Jupyter Notebook provides tools for:
 
 ![Output Visualization](output.png)
 
+📌 Prerequisites
+
+Operating System: Windows, macOS, or Linux
+
+Python 3.8+ (Ensure Python is installed before proceeding)
+
+Google Earth Engine Python API
+
+[Anaconda](https://docs.anaconda.com/miniconda/install/)
+
+[Git](https://git-scm.com/downloads)  (for cloning the repository)
+
 ## 📌 Setup Instructions
 
 ### **1️⃣ Install Conda (If Not Installed)
