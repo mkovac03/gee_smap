@@ -14,15 +14,15 @@ This Jupyter Notebook provides tools for:
 
 📌 Prerequisites
 
-Operating System: Windows, macOS, or Linux
+- Operating System: Windows, macOS, or Linux
 
-Python 3.8+ (Ensure Python is installed before proceeding)
+- Python 3.8+ (Ensure Python is installed before proceeding)
 
-Google Earth Engine Python API
+- [Google Earth Engine Python API](https://developers.google.com/earth-engine/guides/python_install)
 
-[Anaconda](https://docs.anaconda.com/miniconda/install/)
+- [Anaconda](https://docs.anaconda.com/miniconda/install/)
 
-[Git](https://git-scm.com/downloads)  (for cloning the repository)
+- [Git](https://git-scm.com/downloads)  (for cloning the repository)
 
 ## 📌 Setup Instructions
 
