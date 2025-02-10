@@ -26,11 +26,11 @@ This Jupyter Notebook provides tools for:
 
 ## 📌 Setup Instructions
 
-### **1️⃣ Install Conda (If Not Installed)
+### 1️⃣ Install Conda (If Not Installed)
 
 If you don’t have Conda installed, download and install it from [Miniconda Installation](https://docs.anaconda.com/miniconda/install/).
 
-### **2️⃣ Open Anaconda Prompt
+### 2️⃣ Open Anaconda Prompt
 
 ⚠️ IMPORTANT: Make sure to run all the following commands from Anaconda Prompt (not from Windows CMD or PowerShell). 
 
@@ -41,26 +41,26 @@ Windows: Open Start Menu, search for Anaconda Prompt, and launch it.
 Mac/Linux: Open a terminal window.
 
 
-### **3️⃣ Clone the Repository**
+### 3️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/mkovac03/gee_smap.git
 cd gee_smap
 ```
 
-### **4️⃣ Create and Activate the Conda Environment**
+### 4️⃣ Create and Activate the Conda Environment**
 ```sh
 conda env create -f environment.yml
 conda activate smap_analysis
 ```
 
-### **5️⃣ Authenticate Google Earth Engine**
+### 5️⃣ Authenticate Google Earth Engine**
 Before running the notebook, authenticate Google Earth Engine (GEE) by running:
 ```sh
 earthengine authenticate
 ```
 Follow the prompts to complete the authentication.
 
-### **6️⃣ Run Jupyter Lab**
+### 6️⃣ Run Jupyter Lab**
 ```sh
 jupyter lab
 ```
